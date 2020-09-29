@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+
+    
+    <head>
+    
+        <title>Commands</title>
+        
+        <meta charset="utf-8">
+        
+        <meta name="description" content="Simple, clean, responsive website built with html5, CSS3, Js, jQuery and Bootstrap">
+        
+        <meta name="keywords" content="web, design, html, css, html5, css3, javascript, jquery, bootstrap, development">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        
+         <!-- Google Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500italic,600italic,600,700,700italic,300italic,300,400,400italic,800,900' rel='stylesheet' type='text/css'>
+        
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600italic,700,900' rel='stylesheet' type='text/css'>
+        
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        
+        <!-- Fontawesome  -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+        <!-- Animate CSS -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- BX slider CSS -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+        
+        <!-- responsive css -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css">
+        
+             
+    </head>
+    
+    <xml id="anywon" src="accounts.xml"></xml>
+    <body style="background-image: url(bank/images/header-bg.jpg);background-position:right;background-attachment: fixed;background-size:auto;background-repeat: no-repeat;background-blend-mode:overlay">  
+             <div>
+
+              <div></div>
+               
+                <div class="container header-container">
+                  <div style="object-fit: contain">
+                    
+                 </div>
+                 <div id="simpleint"> 
+                        Command:<input type="text" id="principal">
+                        <button class="btn-success" onClick="sical2()" style="background-color: red">RUN</button>
+                        <div id="rectangle" style="font-weight: 20; color: white; border: 8px;border-style: dotted;border-color: green;width: 600;height:800"></div>
+                        <script type="text/javascript">
+                            function sical2(){
+                            var princ=document.getElementById("principal").value;
+                            //var pcpa=document.getElementById("intr").value;
+                            //var yr=document.getElementById("yr").value;
+                            //var res=((princ*pcpa*yr)/100);
+                            var res = 200;
+                            var princ = princ;
+                            document.getElementById("rectangle").innerHTML='OUTPUT:'+'<br><p><iframe src='+'\"http://localhost/cgi-bin/doc.py?post='+princ+'\" width=\"600\" height=\"500\" style=\"color:white\">'+ '</iframe></p>';
+                            document.getElementById("simpleint").insertAdjacentHTML('beforeend','OUTPUT:'+'<br><p><iframe  src='+'\"http://localhost/cgi-bin/doc.py?post='+princ+'\" width=\"1200\" height=\"500\" style=\"color:white\">'+ '</iframe></p>');
+                            }
+                        </script>
+                    </div>
+                    
+
+                    
+ 
+ <p>
+  =
+  
+
+ </p>
+                    
+                 </div>   
+                   
+        </div>
+        
+        <!-- Bootstrap JavaScript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Bx Slider JS -->
+        <script src="js/jquery.bxslider.min.js"></script>
+        
+        <!-- Add JS counter lib -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        
+        <!-- Add wow js lib -->
+        <script src="js/wow.min.js"></script>
+      
+        <!-- Custom Js -->
+        <script src="js/custom.js"></script>
+        
+    </body>
+
+
+</html>
